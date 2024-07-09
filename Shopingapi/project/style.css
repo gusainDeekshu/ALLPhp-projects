@@ -1,0 +1,703 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: beige;
+    background-repeat: no-repeat;
+    background: url(./pictures/fun.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./pictures/pixel.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.container2 {
+    position: relative;
+    z-index: 2;
+    /* display: flow; */
+    background-image: url(./pictures/ph9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    margin-top: -9vh;
+    height: 110vh;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.container3 {
+    position: relative;
+    z-index: 3;
+    height: 60vh;
+    width: 100%;
+    background-image: url(./pictures/laptopimage.jpg);
+    /* opacity: 0.5; */
+    position: sticky;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container8 {
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color:white;
+    z-index: 100;
+}
+.con{
+    background-color: white;
+    display: flex;
+    height: auto;
+    width: 50%;
+}
+#info{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 175px;
+}
+#inf{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+label{
+    border: 2px solid rgb(255,255,255);
+    padding: 6px;
+    margin-right: -5px;
+}
+#myform{
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 169px;
+    border-spacing: 2px;
+}
+#myfor{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#lname,#kname{
+    width: auto;
+    padding: 6px;
+    background-color: white;
+}
+#fname{
+    width: 300px;
+    padding: 6px;
+    background-color: white;
+}
+#fnam,#lnam,#knam{
+    padding: 6px;
+}
+#sub{
+    height: 50px;
+    width: 100px;
+}
+#myfor{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#mytext{
+    position: absolute;
+}
+
+.incontainer {
+    background-color: rgb(54, 46, 46);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 10;
+    background: transparent;
+    align-items: center;
+}
+.btn{
+    background: transparent;
+    border: none;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.left {
+    color: white;
+    display: flex;
+    width: 42%;
+    background-color: rgb(14, 20, 25);
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    background: transparent;
+}
+
+.right {
+    display: flex;
+    width: 58%;
+    background-color: rgb(74, 93, 110);
+    justify-content: left;
+    align-items: center;
+    gap: 2vw;
+    font-size: 1.2vw;
+    background: transparent;
+}
+
+.right a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.right i {
+    display: none;
+}
+
+
+
+.main {
+    top: 100px;
+    background: transparent;
+    position: relative;
+    flex-direction: column;
+    bottom: 0%;
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    line-height: 8vw;
+    gap: 3vw;
+}
+
+.button button {
+    width: 15vw;
+    background-color: #E83F3E;
+    border-radius: 5vh;
+    position: relative;
+    border-width: 2px;
+    border-color: #E83F3E;
+    border-style: solid;
+    height: 10vh;
+    color: white;
+}
+
+.typewriter h3 {
+    font-size: 1.3vw;
+    color: white;
+}
+
+.typewriter {
+    line-height: 5vw;
+}
+
+.typewriter h1 {
+    font-size: 4vw;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 5px solid rgb(135, 8, 31);
+    border-color: black;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+.top {
+    display: flex;
+    /* display: inline-flex; */
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    background-color: red;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.top h4 {
+    font-style: italic;
+    color: aqua;
+    font-size: 1.5vw;
+}
+
+.top h2 {
+    font-size: 4vw;
+    color: white;
+}
+
+
+.conleft {
+    float: left;
+    top: 20vw;
+    width: 50%;
+    height: 75vh;
+    background-color: beige;
+    background: transparent;
+    justify-content: right;
+}
+
+
+
+
+#para {
+    z-index: 2;
+    margin-top: -100%;
+    height: 75vh;
+    position: relative;
+    position: sticky;
+    top: 20px;
+    width: 30%;
+    left: 19%;
+
+}
+
+.b::after,
+.b::before {
+    height: 1px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+.conright {
+    float: right;
+    display: flex;
+    justify-content: left;
+    width: 47%;
+    height: 75vh;
+    background-color: rgb(74, 74, 31);
+    background: transparent;
+}
+
+.content {
+    width: 70%;
+    height: 100%;
+    background-color: #985d5d;
+    background: transparent;
+    /* line-height: 3vw; */
+}
+
+.conright img {
+    height: 3vw;
+}
+
+.conright div #psize {
+    color: white;
+    font: bolder;
+    font-size: 1vw;
+    line-height: 2vw;
+
+}
+
+#mtop {
+    position: relative;
+    top: 5vh;
+}
+
+#mtop1 {
+    position: relative;
+    top: 10vh;
+}
+
+
+.conright div p {
+    color: white;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.mcon {
+    width: 17%;
+    height: 75vh;
+    float: left;
+}
+
+.container2 .conleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 75vh;
+    background-color: antiquewhite;
+
+}
+
+.container2 .conright {
+    float: left;
+    position: relative;
+    left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 75vh;
+    background-color: antiquewhite;
+}
+
+.bar {
+    width: 90%;
+    height: 8px;
+    background-color: #4e679a;
+    display: flex;
+}
+
+.bar2 {
+    /* position: relative; */
+    width: 90%;
+    height: 8px;
+    background-color: #4e679a;
+    display: flex;
+}
+
+.bar1,
+.bar3 {
+    height: 100%;
+    width: 90%;
+    background-color: #E83F3E;
+}
+
+.bar3 {
+    height: 100%;
+    width: 90%;
+    background-color: #E83F3E;
+}
+
+.per {
+    display: flex;
+    border: 1px solid black;
+}
+
+.perimg {
+    display: flex;
+    height: 50px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(211, 207, 198)
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .right {
+        justify-content: right;
+
+    }
+
+    .left {
+        font-size: 8vw;
+
+    }
+
+    .right i {
+        position: relative;
+        display: flex;
+        right: 20vw;
+
+    }
+
+    .right a h4 {
+        display: none;
+    }
+
+    .button {
+        display: block;
+        line-height: 21vh;
+    }
+
+    .button button {
+        width: 50vw;
+        background-color: #E83F3E;
+        border-radius: 10vh;
+        position: relative;
+        border-width: 2px;
+        border-color: #E83F3E;
+        border-style: solid;
+        height: 15vh;
+        color: white;
+    }
+}
+/* new css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1,
+h2 {
+    color: aliceblue;
+    padding: 12px;
+
+}
+
+button {
+    position: absolute;
+    height: 30px;
+    /* padding: 12px; */
+    right: 12px;
+}
+
+li {
+    background-color: #77797e25;
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    &:hover{
+        background-color: rgb(20, 66, 107);
+        h2{
+            color: rgb(121, 180, 69);
+            font-size: 5vh;
+            padding: 24px;
+        }
+    }
+}
+
+.links {
+    overflow: hidden;
+    height: 0;
+    width: 100%;
+    transition: 2000ms;
+}
+
+.showlinks {
+    height: 300px;
+}
+.hidden{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    top: 100px;
+}
+
+
+
+
+
+.numtext {
+    position: absolute;
+  
+    font-size: 1.2rem;
+    color: white;
+}
+
+.caption {
+    position: absolute;
+    left: 48vw;
+    font-size: 1.5rem;
+    color: aqua;
+    bottom: 1vw;
+
+}
+.imgcont{
+    display: none;
+}
+
+.imgcont img {
+    width: 100%;
+    height: auto;
+}
+
+.arrow {
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 2rem;
+}
+
+.prev {
+    left: 1vw;
+}
+
+.next {
+    right: 1vw;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 1vw;
+    width: 1vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    /* transition: background-color 0.6s ease; */
+}
+.dotrow{
+    position: relative;
+    width: max-content;
+}
+#myfor{
+    position: relative;
+}
+.service {
+    width: 100%;
+    padding: 70px 0px;
+    position: relative;
+    z-index: 150;
+    background-color: #576071;
+}
+
+.servicebox {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: auto;
+}
+
+.singleservice {
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+}
+
+.singleservice img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.hoverbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #516ca3);
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.title {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title p {
+    margin: auto;
+    font-size: 20px;
+    color: rgb(242, 120, 97);
+    font-weight: bold;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+
+
+
+
+
+.singleservice:hover .hoverbox {
+    opacity: 1;
+}
+
+.singleservice:hover .disc {
+    opacity: 1;
+    border-bottom: 40%;
+}
+
+.disc {
+    width: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.disc hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}

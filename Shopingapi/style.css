@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.maincontainer {
+
+    background: url("bgimg.jpg");
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.modelbox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 70vh;
+    width: 30vw;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(130, 207, 207, 0.483);
+}
+
+#wrong{
+    cursor: pointer;
+    position: absolute;
+    line-height: normal;
+    top: 10px;
+    right: 10px;
+}
+
+#btn {
+    background-color: rgb(177, 177, 232);
+    padding: 0.5em 2.5em;
+    letter-spacing: 0.22em;
+    color: white;
+}
+
+.green {
+    color: aquamarine;
+}
+
+.red {
+    color: red;
+}
+
+.alert {
+    font-size: larger;
+
+}
+
+/* Add padding to containers */
+.container {
+    position: relative;
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password],#phone{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+#phone:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.textalign{text-align: center;}
+
